@@ -33,7 +33,7 @@ while resposta:
 
         rp = input("Deseja Consultar outro cep? S/N: ")
         os.system('clear') or None
-        if rp == 'nao':
+        if rp.lower() == 'nao':
             exit()
             
 
