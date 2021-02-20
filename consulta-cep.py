@@ -1,6 +1,10 @@
 import requests
 import os
 
+
+#autor: Thiago Araújo
+#Consulta de CEP básico em Python 3
+
 print("""
 
     ##########################
@@ -16,7 +20,7 @@ while resposta:
 
 
     if len(cep) !=8:
-        print("Quantidade de Digitos Invaalidos!") 
+        print("Quantidade de Digitos Inválidos!") 
         exit()
 
     request =  requests.get('https://viacep.com.br/ws/{}/json/'.format(cep))
