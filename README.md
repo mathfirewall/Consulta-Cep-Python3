@@ -1,21 +1,35 @@
-# consulta-cep-Python3
- script Básico em python3 para  consulta de Cep
+# 📦 Projeto: Consulta CEP em Python
 
- Autor: Thiago Araújo
- Versão: 0.1
- Language:Python 3
+Script simples em Python 3 para consulta de CEPs via API pública.
 
+## 🛠 Requisitos
 
+- Python 3 instalado
+- Biblioteca `requests`
 
-Precisará da bliblioteca "requests" instale ela via pip3
+Instale com:
 
- como usar
+```bash
+pip install requests
+```
 
- faça o download dos arquivos abra o terminal ou cmd dentro de onde está o arquivo consulta-cep.py
+## 🚀 Como Usar
 
- agora execute o sequinte comando
+1. Clone o repositório ou baixe o script `consulta-cep.py`
+2. No terminal, execute o comando:
 
- python3 consulta-cep.py
+```bash
+python3 consulta-cep.py
+```
 
+O script solicitará que você digite um CEP e retornará as informações associadas.
 
-em breve pretendo dar  umas melhoradas no código
+## 💡 Melhorias Futuras
+
+- Interface gráfica com Tkinter ou PyQt
+- Validação e formatação de CEPs
+- Exibição dos resultados de forma mais organizada
+
+## 📄 Licença
+
+Distribuído sob a Licença MIT.
